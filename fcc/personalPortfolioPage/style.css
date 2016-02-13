@@ -1,0 +1,121 @@
+body {
+  font-family: Ubuntu;
+}
+
+/*NAVBAR*/
+/*navbar background and border*/
+.navbar-default {
+  background-color: #282828;
+  border-color: #282828;
+}
+/*icon-bar*/
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #458588;
+}
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #282828;
+}
+/*navbar toggle*/
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #458588;
+}
+/*navbar brand*/
+.navbar-default .navbar-brand {
+  color: #458588;
+  font-size: 20px;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #282828;
+  background-color: #458588;
+}
+/*home about contact*/
+.navbar-default .navbar-nav > li > a {
+  color: #458588;
+  font-size:20px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #282828;
+  background-color: #458588;
+}
+
+/*HOME*/
+#home {
+  background: url(https://images.unsplash.com/8/lighthousemorning.jpg?q=80&fm=jpg&s=3cecfc6c936a8edc063655f4eaa99670) no-repeat center center fixed;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 855px;
+}
+
+/*ABOUT*/
+#about {
+  background: url(https://images.unsplash.com/photo-1428954376791-d9ae785dfb2d?q=80&fm=jpg&s=2b9da0d2264050e32ad8ac8213a76a78) no-repeat center center fixed;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 855px;
+}
+
+/*PORTFOLIO*/
+#portfolio {
+  background: url(http://p1.pichost.me/i/11/1338724.jpg) no-repeat center center fixed;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  min-height: 855px;
+}
+/*jumbotron*/
+#jumbo {
+  background-color: transparent;
+}
+.jumbotron h1 {
+color: #282828;
+}
+.thumbnail {
+  max-width: 400px;
+}
+/*CONTACT*/
+#contact {
+  background: url(https://images.unsplash.com/photo-1434210330765-8a00109fc773?q=80&fm=jpg&s=fd4bd271e2c2625bdaff2be69c48a56c) no-repeat center center fixed;
+  background-size: cover;
+  height: 855px;
+}
+#jumbo2 {
+  background-color: transparent;
+}
+#jumbo2 > h1 {
+  color: #ebdbb2;
+}
+/*BUTTONS*/
+.btn {
+  display: inline-block;
+  color: #282828;
+  background: #fabd2f;
+  text-shadow: 1px 1px #282828;
+  box-shadow: 3px 3px 3px #282828;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+.btn:hover {
+	color: #282828;
+  border: 1px outset #282828;
+  background: #fe8019;
+  transform: scale(1.1);
+  transition: 0.3s;
+  text-shadow: 1px 1px 1px #282828;
+  box-shadow: 3px 3px 3px #282828;
+  letter-spacing: 2px;
+}
+.social {
+  padding-top:100px;
+  float: right;  
+}
+ul.social > a {
+  display: block;
+  margin-bottom: 40px;
+}
+
+
+
+/* body padding to prevent navbar and elements overlaping */
+body { padding-top: 50px; }

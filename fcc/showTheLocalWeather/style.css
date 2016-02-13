@@ -1,0 +1,34 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /*background shorthand property order: color, image, repeat, attachment, position / size*/
+  background: url(https://images.unsplash.com/photo-1443827423664-eac70d49dd0d?q=80&fm=jpg&s=7407ce4a5a3e5a4f34f46cbc035bb360) no-repeat fixed center center / cover;
+  font-size: 100%;
+  	color: rgb(235,219,178);
+}
+/*
+snow: https://images.unsplash.com/photo-1422207134147-65fb81f59e38?q=80&fm=jpg&s=c018aa4105f055fc760c7a611685fa17
+rain: https://pixabay.com/get/de0512cab87209eaf1b1/1444085777/rain-354617_1280.jpg?direct
+sun: https://pixabay.com/get/5c9e866e3dd6f7733fba/1444085915/man-937384_1280.jpg?direct*/
+
+#temperature {
+  font-size: 3em;
+  text-transform: uppercase;
+  margin: 0px auto;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+#weather ul {
+  margin-top: 50px;
+  padding: 0;
+}
+#weather li {
+  font-size: 2em;
+  padding: 40px;
+  display: inline-block;
+  border-radius: 15px;
+  background-color: rgba(40, 40, 40, 0.4);
+}

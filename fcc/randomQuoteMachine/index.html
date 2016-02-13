@@ -1,0 +1,29 @@
+<head>
+  <!--import font awesome icons-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <title>random quote machine</title>
+</head> 
+
+<body>
+  <header class='jumbotron text-center'>
+      <h1>a Random Quote Machine</h1>
+      <h3>just some random quotes...</h3>
+  </header>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-md-12 text-center'>
+          <button id='button' type='submit' class="btn btn-default btn-lg" onclick='setScript();this.blur();' href="#" role="button">GET QUOTE</button>
+        </div> 
+          <div class='col-md-6 col-md-offset-3'>
+            <blockquote>
+              <p id='quote'>Let javaScript change this text</p>
+              <footer id='author'>author</footer>
+            </blockquote>
+          </div>
+        </div>
+      <div class='col-md-12 text-center'>
+        <a target='_blank' id='twitter' type='submit' class='fa fa-twitter btn btn-info btn-lg' onclick='tweetQuote();this.blur();'>
+        TWEET A QUOTE</a>
+      </div>
+    </div>
+</body>
